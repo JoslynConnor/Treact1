@@ -8,55 +8,54 @@
 </head>
 <body>
     <section id="landing">
-        <nav class="row">
-            <div class="nav__landing">
-                <img id="header__logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
-                <h1>Treact</h1>
+        <nav>
+            <div class="row nav__row">
+            <div class="nav__logo">
+                <img class= logo__img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+                <span class="nav__heading">Treact</span>
             </div>
+            </div>
+            
             <div class="nav__links">
-                <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Login</a></li>
-                <li><a href="#"><button class="btn">Sign Up</button></a></li>
-                </ul>
-            </div>
+                <li><a href="#" class="nav__primary"><button class="btn">Sign Up</button></a></li>
             </div>
        </nav>
     </section>
 
+    
     <section id="header">
-        <div class="container">
+        <div class="header__container">
             <div class="header__row">
-                <div class="header__description">
                     <h1>Beautiful React Templates 
                     <span class="purple">for you.</span></h1>
                     <p class="header__para">Our templates are easy to setup, understand and customize. 
                    Fully modular components with a variety of pages and components.
                     </p>
-                    <input class="header__email" type="text" placeholder="Your E-mail Address Here"/>
+                    <input class="header__email" type="text" placeholder="Your E-mail Address"/>
                     <button class="btn">Get Started</button>
-                <div class="customers">
-                    <p class="customers__tag">OUR TRUSTED CUSTOMERS</p>
+                     <p class="customers__tag">OUR TRUSTED CUSTOMERS</p>
                     <img class="customer__img" src="/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
-                </div>
-                </div>
-            <div>
-                <img class= header__img src="/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+                 <div class="header__img">
+                    <img src="/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+                
+                  </div> 
             </div>
-            </div>
-        </div>
+             </div>
     </section>
 
+    <main>
     <section id="features">
-        <div class="container">
-            <div class="row">
+        <div class="features__container">
+            <div class="row__narrow">
                 <div class="feature__title">
-                    <h3><span class="purple__feature">Features</span></h3>
-                    <h2>We Have Amazing <span class="purple">Service</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                    <h4 class="section__tag"><span class="purple"> Features</span></h4>
+                    <h2 class="section__title">We Have Amazing <span class="purple"> Service.</span></h2>
+                    <p class="feature__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             <div class="feature__list">
@@ -93,7 +92,22 @@
             </div>
             </div>
         </div>
-
     </section>
+
+    <section id="work">
+        <div class="work__row">
+            <h3 class=" work__h3">QUALITY WORK</h3>
+            <div class="work__h2">
+                <h2>Design & Developed by Professionals</h2>
+            </div>
+            <div class="work__para">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Enim quam cupiditate 
+                    commodi qui excepturi laborum adipisci 
+                    officiis, corporis possimus. Reiciendis?</p>
+            </div>
+            <input class="work__btn" type="button" value="Learn More">
+    </section>
+    </main>
 </body>
 </html>
